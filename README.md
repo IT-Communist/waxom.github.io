@@ -1,2 +1,1 @@
-# waxom.github.io
-Верстка зачетного проекта в рамках курса "HTML5 и CSS3" от Geekbrains (преподаватель: Александр Ерофеев)
+# waxomproject.github.io
