@@ -1,54 +1,54 @@
 @font-face {
   font-family: raleway;
-  src: url(../fonts/Raleway/raleway-bold.ttf);
+  src: url(fonts/Raleway/raleway-bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: raleway;
-  src: url(../fonts/Raleway/raleway-extraBold.ttf);
+  src: url(fonts/Raleway/raleway-extraBold.ttf);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: raleway;
-  src: url(../fonts/Raleway/raleway-medium.ttf);
+  src: url(fonts/Raleway/raleway-medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: raleway;
-  src: url(../fonts/Raleway/raleway-regular.ttf);
+  src: url(fonts/Raleway/raleway-regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: raleway;
-  src: url(../fonts/Raleway/raleway-semiBold.ttf);
+  src: url(fonts/Raleway/raleway-semiBold.ttf);
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: montserrat;
-  src: url(../fonts/Montserrat/montserrat-extralight.woff2), url(../fonts/Montserrat/montserrat-extralight.woff), url(../fonts/Montserrat/montserrat-extralight.ttf);
+  src: url(fonts/Montserrat/montserrat-extralight.woff2), url(../fonts/Montserrat/montserrat-extralight.woff), url(../fonts/Montserrat/montserrat-extralight.ttf);
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: montserrat;
-  src: url(../fonts/Montserrat/montserrat-light.woff2), url(../fonts/Montserrat/montserrat-light.woff), url(../fonts/Montserrat/montserrat-light.ttf);
+  src: url(fonts/Montserrat/montserrat-light.woff2), url(../fonts/Montserrat/montserrat-light.woff), url(../fonts/Montserrat/montserrat-light.ttf);
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: montserrat;
-  src: url(../fonts/Montserrat/montserrat-regular.woff2), url(../fonts/Montserrat/montserrat-regular.woff), url(../fonts/Montserrat/montserrat-regular.ttf);
+  src: url(fonts/Montserrat/montserrat-regular.woff2), url(../fonts/Montserrat/montserrat-regular.woff), url(../fonts/Montserrat/montserrat-regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: roboto;
-  src: url(../fonts/Roboto/roboto-regular.woff2), url(../fonts/Roboto/roboto-regular.woff), url(../fonts/Roboto/roboto-regular.ttf);
+  src: url(fonts/Roboto/roboto-regular.woff2), url(../fonts/Roboto/roboto-regular.woff), url(../fonts/Roboto/roboto-regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
@@ -75,7 +75,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 40px 150px 0 150px;
-  background: url(/img/bg_photo_11949.png) center center / cover no-repeat;
+  background: url(img/bg_photo_11949.png) center center / cover no-repeat;
 }
 .page-header-slider {
   width: 100%;
@@ -366,7 +366,7 @@ input[type="checkbox"]:checked ~ .menu {
 .screenhots-content {
   width: 1230px;
   margin: 83px 0 0 0;
-  background-image: url(../../img/browser_center_10768.jpg), url(../../img/browser_left_10769.jpg), url(../../img/browser_right_10770.jpg);
+  background-image: url(img/browser_center_10768.jpg), url(img/browser_left_10769.jpg), url(img/browser_right_10770.jpg);
   background-repeat: no-repeat;
   background-position: bottom center, bottom left, bottom right;
   background-size: 770px 497px, 770px 401px, 770px 401px;
@@ -745,7 +745,7 @@ input[type="checkbox"]:checked ~ .menu {
 .mobile-property::before {
   content: "";
   position: absolute;
-  background-image: url(/img/01_10972.png);
+  background-image: url(img/01_10972.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 21px;
@@ -947,13 +947,13 @@ input[type="checkbox"]:checked ~ .menu {
   content: "";
   width: 5px;
   height: 8px;
-  background-image: url(/img/recent/arrow_11665.svg);
+  background-image: url(img/recent/arrow_11665.svg);
   background-size: cover;
   display: inline-block;
   margin-left: 10px;
 }
 .partners {
-  background-image: url(../../../img/footer/partners/bg\ photo.jpg);
+  background-image: url(img/footer/partners/bg\ photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -999,7 +999,7 @@ input[type="checkbox"]:checked ~ .menu {
   color: #d1d1d1;
 }
 .column .post-link::after {
-  background-image: url(/img/footer/communication/icons/link-icon.svg);
+  background-image: url(img/footer/communication/icons/link-icon.svg);
 }
 .column-title {
   font-family: raleway, arial, sans-serif;
