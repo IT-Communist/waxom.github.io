@@ -1,0 +1,236 @@
+@media (max-width: 480px) {
+
+    body {
+        width: 100%;
+    }
+
+    .page-header {
+        padding: 10px 10px;
+        position: fixed;
+        z-index: 3;
+        min-height: 70px;
+        width: 100%;
+        flex-direction: row-reverse;
+        top: 0;
+    }
+
+    .logo {
+        margin: 0;
+        order: 1;
+        position: absolute;
+        right: 285px;
+        top: 7px;
+    }
+
+    .menu-label {
+        display: block;
+    }
+
+    .menu {
+        visibility: hidden;
+        height: 0;
+        justify-content: unset;
+        align-items: unset;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 37px 0 0 0;
+
+        &-link {
+            text-align: center;
+            width: 100%;
+
+            &:first-child {
+                margin: 10px 0 0 0;
+            }
+        }
+
+        .shopping-cart {
+            width: 100%;
+        }
+
+        .search {
+            margin: 0 auto;
+
+            &-input {
+                top: 0;
+                left: 30px;
+                font-size: 8px;
+            }
+        }
+    }
+
+    .page-header-slider {
+        display: none;
+    }
+
+    .mainly {
+        margin-top: 70px;
+    }
+
+    .features {
+        flex-wrap: wrap;
+        padding: 0;
+
+        &-box {
+            margin: 10px auto;
+            width: 50%;
+            padding: 0;
+
+            &:nth-child(4) {
+                margin: 10px auto;
+            }
+        }
+    }
+
+    .screenhots {
+        display: none;
+    }
+
+    .advertising {
+        display: none;
+    }
+
+    .projects {
+        padding: 0;
+
+        &-txt {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
+        &-button-wrap {
+            width: 100%;
+        }
+
+        &-content-wrap {
+            justify-content: unset;
+
+            .project {
+                width: 100%;
+                padding: 0 30px;
+
+                &::after {
+                    width: 420px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        padding: 0;
+        margin-top: 15px;
+        background-color: #ffffff;
+
+        &-photo {
+            width: 50%;
+            float: left;
+            height: auto;
+        }
+
+        &-content {
+            width: auto;
+            display: block;
+
+            .mobile-title {
+                font-size: 25px;
+            }
+
+            .mobile-txt {
+                margin: 0;
+                font-size: 15px;
+                line-height: 26px;
+            }
+
+            .mobile-description {
+                margin: 0;
+            }
+        }
+    }
+
+    .counters {
+        display: none;
+        ;
+    }
+
+    .recent {
+        padding: 0;
+
+        &-title {
+            margin: 10px 0 0 0;
+        }
+
+        &-txt {
+            margin-bottom: 0;
+            font-size: 15px;
+            width: auto;
+        }
+
+        &-wrapper {
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+
+        &-post {
+            width: 100%;
+
+            &:hover::after {
+                left: 54px;
+            }
+
+            .post-img {
+                margin: auto;
+            }
+
+            .date {
+                left: 67px;
+            }
+
+            .post-slider {
+                left: 185px;
+            }
+
+            .post-body {
+                padding: 0;
+                margin: 0 auto 10px;
+                width: 370px;
+            }
+        }
+
+        &-button-wrap {
+            display: none;
+        }
+    }
+
+    .partners {
+        padding: 15px 15px;
+        justify-content: space-between;
+
+        .partner {
+            margin-right: 0;
+
+            &-logo {
+                height: auto;
+                width: 98px;
+            }
+        }
+    }
+
+    .communication {
+        display: none;
+    }
+
+    .footer {
+        padding: 20px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

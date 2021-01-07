@@ -1,0 +1,81 @@
+.page-button {
+    border: none;
+    outline: none;
+    color: @color-txt;
+    background-color: #998675;
+    border-radius: 3px;
+    padding: 21px 38px;
+    cursor: pointer;
+
+    font-family: raleway, arial, sans-serif;
+    .font-mixin(800);
+    font-size: 14px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: @color-txt;
+
+    &:hover {
+        background-color: @color-txt;
+        color: #998675;
+        transition: 0.5s linear;
+    }
+}
+
+.projects-button {
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    height: 32px;
+
+
+    color: #8c8c8c;
+    background-color: @fill-icon;
+
+    font-family: @montserrat;
+    .font-mixin(300);
+    font-size: 14px;
+    line-height: 21px;
+
+    &:hover {
+        color: @color-txt;
+        background-color: #998675;
+        transition: .3s linear;
+    }
+
+    &:active {
+        background-color: green;
+        color: @color-txt;
+    }
+}
+
+.button-active {
+    width: 70px;
+    color: @color-txt;
+    background-color: #998675;
+}
+
+.recent-btn {
+    border: none;
+    outline: none;
+    padding: 0 0 0 0;
+    height: 22px;
+    background-color: transparent;
+    cursor: pointer;
+
+    margin-right: 6px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    .arrow {
+        fill: #d1d1d1;
+        transition: 0.3s linear;
+    
+        &:hover {
+            fill: #c7b299;
+        }
+    }
+}

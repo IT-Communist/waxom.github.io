@@ -1,0 +1,66 @@
+.features {
+    display: flex;
+    padding: 80px 377px;
+
+
+
+    &-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 10px 0 10px;
+        margin: 0 14px 0 0;
+
+        &:nth-child(4) {
+            margin: 0;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 70px;
+            height: 3px;
+            background-color: #f1eee9;
+            margin: 33px 0 0 0;
+        }
+
+        &:hover .features-icon {
+            fill: @link-hover;
+            transition: 0.2s linear;
+        }
+
+        &:hover .features-title {
+            color: @link-hover;
+            transition: 0.2s linear;
+        }
+
+        &:hover::after {
+            background-color: @link-hover;
+            transition: 0.2s linear;
+        }
+    }
+
+    &-icon {
+        display: block;
+        fill: #555555;
+        margin: 0 0 29px 0;
+    }
+
+    &-title {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 19px 0;
+        font-family: raleway;
+        .font-mixin(600);
+        font-size: 22px;
+        line-height: 1.2;
+    }
+
+    &-txt {
+        text-align: center;
+        .font-mixin(300);
+        font-family: montserrat;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

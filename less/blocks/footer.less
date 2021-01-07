@@ -1,0 +1,233 @@
+.partners {
+    display: flex;
+    background-image: url(../../../img/footer/partners/bg\ photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0;
+}
+
+.partner {
+    margin-right: 90px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &-logo {
+        transition: 0.3s linear;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.communication {
+    background-color: #191919;
+
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+
+    font-family: @montserrat;
+    .font-mixin(300);
+    line-height: 20px;
+    font-size: 14px;
+    color: @footer-txt;
+    word-break: break-all;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 30px;
+
+    .logo {
+        margin: 0;
+
+        word-break: normal;
+    }
+
+    .post-link {
+        color: #d1d1d1;
+
+        &::after {
+            background-image: url(/img/footer/communication/icons/link-icon.svg)
+        }
+    }
+
+    &-title {
+        font-family: @raleway;
+        .font-mixin(700);
+        line-height: 1.2;
+        font-size: 24px;
+        color: @footer-title;
+
+        margin: 28px 0 0 0;
+    }
+
+    &-content {
+        display: inherit;
+        flex-direction: inherit;
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 2px;
+            background-color: #252525;
+            display: block;
+            margin: 21px 0 19px 0;
+        }
+
+        &:last-child::after {
+            content: none;
+        }
+    }
+
+    &-link {
+        text-decoration: none;
+        color: @footer-link;
+
+        &.website {
+            color: #959595;
+        }
+    }
+}
+
+#description {
+    width: (258/1920)*100%;
+
+    margin-right: 42px;
+
+    .column-txt {
+        line-height: 24px;
+
+        margin: 29px 0 33px 0;
+    }
+}
+
+#recent-update {
+    width: (271/1920)*100%;
+
+    time,
+    .column-txt {
+        transition: .3s linear;
+    }
+
+    .column-content:hover time {
+        color: #ffffff;
+    }
+
+    .column-content:hover .column-txt {
+        color: #c7b299;
+    }
+
+    .column-content:nth-child(2)>time {
+        margin: 33px 0 0 0;
+    }
+
+    .column-txt {
+        margin-top: 10px;
+        width: (260/271)*100%;
+    }
+}
+
+#twitter {
+    width: (272/1920)*100%;
+
+    .column-content:nth-child(2)>p {
+        margin-top: 30px;
+    }
+
+    .column-content::after {
+        margin: 23px 0 17px 0;
+    }
+
+    .column-txt {
+        margin-bottom: 10px;
+    }
+}
+
+#widget {
+    width: (271/1920)*100%;
+
+    margin-right: 0;
+}
+
+.widget-wrap {
+    margin: 26px 0 0 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 206px;
+
+    img {
+        transition: .3s linear;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 45px (375/1920)*100% 52px;
+
+    background-color: #181818;
+
+    .links {
+        display: flex;
+
+        color: @footer-txt;
+        font-family: @montserrat;
+        .font-mixin(300);
+        font-size: 13px;
+
+        a {
+            text-decoration: none;
+            color: @footer-txt;
+        }
+
+        &-text::after {
+            content: "";
+            border-right: 1px solid #252525;
+            margin: 0 5px 0;
+        }
+
+        &-text:last-child::after {
+            content: none;
+        }
+
+        &-text .links-text-brand {
+            color: #959595;
+        }
+
+        &-text .links-text-author, .links-text-area {
+            color: #939393;
+        }
+    
+        &-item::after {
+            content: "";
+            border-right: 1px solid #252525;
+            margin: 0 5px 0;
+        }
+
+        &-item:last-child::after {
+            content: none;
+        }
+
+        &-item:hover {
+            color: #C0B199;
+        }
+    }
+}

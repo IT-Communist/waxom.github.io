@@ -1,0 +1,39 @@
+.screenhots {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfaf8;
+
+    &-content {
+        width: 1230px;
+        margin: 83px 0 0 0;
+        background-image: url(../../img/browser_center_10768.jpg), url(../../img/browser_left_10769.jpg), url(../../img/browser_right_10770.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom center, bottom left, bottom right;
+        background-size: 770px 497px, 770px 401px, 770px 401px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-title {
+            text-align: center;
+            display: block;
+
+            font-family: raleway;
+            font-size: 30px;
+            line-height: 1.2;
+            .font-mixin(600);
+        }
+
+        &-txt {
+            margin: 24px 0 522px 0;
+            width: 757px;
+
+            text-align: center;
+            font-family: montserrat;
+            font-size: 16px;
+            line-height: 28px;
+            .font-mixin(300);
+        }
+    }
+}

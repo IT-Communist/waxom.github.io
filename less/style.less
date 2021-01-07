@@ -1,0 +1,39 @@
+@import "fonts.less";
+@import "vars.less";
+@import "mixins.less";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    width: @body-width;
+    margin: 0 auto;
+    min-width: 480px;
+}
+
+// blocks
+@import "blocks/header.less";
+@import "blocks/features.less";
+@import "blocks/screenshots.less";
+@import "blocks/advertising.less";
+@import "blocks/button.less";
+@import "blocks/projects.less";
+@import "blocks/presentation.less";
+@import "blocks/telephone.less";
+@import "blocks/counters.less";
+@import "blocks/recent.less";
+@import "blocks/footer.less";
+@import "/less/mobile.less";
